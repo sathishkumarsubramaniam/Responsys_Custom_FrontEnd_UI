@@ -16,7 +16,7 @@ RequestHandler.prototype = {
 
   authenticate: (endPoint, data) =>
     axios.post(endPoint, data, {
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      headers: { "Content-Type": "application/x-www-form-urlencoded" }
     }),
 
   setRequestDefaults: ({ authToken, endPoint }) => {
