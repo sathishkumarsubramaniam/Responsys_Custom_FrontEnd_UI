@@ -62,11 +62,11 @@ function Login() {
           <img
             alt="Company Logo"
             className="img-fluid"
-            src={require("../img/companyLogo.png")}
+            src={require("../img/V_RAD_2.png")}
           />
           <br />
-          <h2 className="font-bold">Welcome to Custom Tool</h2>
-          <p>Oracle Responsys Automation</p>
+          <h1 className="font-bold">Welcome to V RAD</h1>
+          <h4>Responsys Automation Dashboard</h4>
         </Col>
         <Col md={6}>
           <BoxedContent title="Enter Login Credentials">

@@ -1,4 +1,4 @@
-const loginServiceURL = "https://login2.responsys.net";
+const loginServiceURL = "https://login5.responsys.net";
 const authEndpoint = "/rest/api/v1.3/auth/token";
 
 export const AUTHENTICATION = {

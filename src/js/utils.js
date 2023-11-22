@@ -11,7 +11,7 @@ export const checkTokenExist = () => {
 export const campaignInput = {
   type: "EMAIL",
   name: "",
-  folderName: "RPA",
+  folderName: "VRAD",
   subject: "Test Subject",
   locale: "en",
   marketingStrategy: "Promotional",
@@ -25,6 +25,13 @@ export const campaignInput = {
   purpose: "PROMOTIONAL",
   filterPaths: ["HariP_Test/RPA_List_Filter"],
   dataSource: [
+    {
+      path: "!MasterData/CONTACTS_LIST",
+      alias: "CONTACTS_LIST",
+      fields: [],
+      type: "PROFILE_LIST",
+      defaultValue: null,
+    },
     {
       path: "Hari_Test/Hari_List",
       alias: "Hari_List",
